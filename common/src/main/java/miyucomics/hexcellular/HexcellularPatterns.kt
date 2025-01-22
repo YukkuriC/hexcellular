@@ -19,6 +19,6 @@ object HexcellularPatterns {
 	}
 
 	private fun register(name: String, signature: String, startDir: HexDir, action: Action) {
-		Registry.register(HexActions.REGISTRY, HexcellularMain.id(name), ActionRegistryEntry(HexPattern.fromAngles(signature, startDir), action))
+		Registry.register(HexActions.REGISTRY, Hexcellular.id(name), ActionRegistryEntry(HexPattern.fromAngles(signature, startDir), action))
 	}
 }

@@ -27,7 +27,7 @@ class StateStorage : PersistentState() {
 
 		fun getServerState(server: MinecraftServer): StateStorage {
 			val persistentStateManager = server.getWorld(World.OVERWORLD)!!.persistentStateManager
-			return persistentStateManager.getOrCreate(::createFromNbt, ::StateStorage, HexcellularMain.MOD_ID)
+			return persistentStateManager.getOrCreate(::createFromNbt, ::StateStorage, Hexcellular.MOD_ID)
 		}
 
 		fun setProperty(world: ServerWorld, name: String, iota: Iota) {
