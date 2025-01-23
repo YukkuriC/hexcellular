@@ -5,7 +5,8 @@
 	"name": "Hexcellular",
 	"description": "Adds property iota for simple iota storage, state keeping, and syncing.",
 	"authors": [
-		"miyucomics"
+		"miyucomics",
+		"YukkuriC"
 	],
 	"contact": {
 		"homepage": "https://github.com/miyucomics/hexcellular",

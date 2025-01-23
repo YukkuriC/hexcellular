@@ -1,0 +1,36 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "hexcellular"
+version = "${version}"
+displayName = "Hexcellular"
+authors = "miyucomics,YukkuriC"
+description = '''
+Adds property iota for simple iota storage, state keeping, and syncing.
+'''
+logoFile = "assets/hexcellular/icon.png"
+
+[[dependencies.hexcellular]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.hexcellular]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.hexcellular]]
+modId = "hexcasting"
+mandatory = true
+versionRange = "[0,)"
+ordering = "NONE"
+side = "BOTH"
+
